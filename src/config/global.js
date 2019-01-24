@@ -55,7 +55,7 @@ const config = (function(){
 		},
 		// type对应上面的color与font  若没有对应的 则默认为color1或font1
 		dialogue:[
-			{type:6, name:'男子', txt:'快过年了，我们去放烟花吧！'},
+			{type:6, name:'男子', txt:'4周年了，我们去放烟花吧！'},
 			{type:2, name:'女子', txt:'天还这么亮，现在放烟花也不好看。'},
 			{type:2, name:'女子', txt:'再说你那有烟花吗？'},
 			{type:6, name:'男子', txt:'我当然有烟花啦。'},
@@ -92,7 +92,7 @@ const config = (function(){
 		// hue:210 lightness 0
 		skyColor:'hsla({hue}, 60%, {lightness}%, 0.2)',	
 		fireOpt: {
-			wordInterval: 3000, //每段话出现的间隔时间
+			wordInterval: 2000, //每段话出现的间隔时间
 		},
 	
 		//阶段四
