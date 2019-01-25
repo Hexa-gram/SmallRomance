@@ -55,10 +55,10 @@ const config = (function(){
 		},
 		// type对应上面的color与font  若没有对应的 则默认为color1或font1
 		dialogue:[
-			{type:6, name:'男子', txt:'4周年了，我们去放烟花吧！'},
-			{type:2, name:'女子', txt:'天还这么亮，现在放烟花也不好看。'},
-			{type:2, name:'女子', txt:'再说你那有烟花吗？'},
-			{type:6, name:'男子', txt:'我当然有烟花啦。'},
+			{type:6, name:'男子', txt:'Send it to my phone'},
+			{type:2, name:'女子', txt:'Send it to my phone'},
+			{type:2, name:'女子', txt:'You already know I ~~~'},
+			{type:6, name:'男子', txt:'给你看点好东西。'},
 			{type:6, name:'男子', txt:'你那有打火机吗？'},
 			{type:2, name:'女子', txt:'没有呀～'},
 			{type:6, name:'男子', txt:'那你是怎么点燃我的心的？'},
@@ -66,11 +66,11 @@ const config = (function(){
 			{type:2, name:'女子', txt:'可是我的心还没有被你点燃呀。'},
 			{type:6, name:'男子', txt:'别慌，我去买个打火机先。'},
 			{type:2, name:'女子', txt:'打火机可点不燃我的心。'},
-			{type:6, name:'男子', txt:'天快黑了，我要为你点燃整片天空。'},
+			{type:6, name:'男子', txt:'那我就为你点燃整片天空。'},
 
 		],
 		// 阶段二
-		sunset: 8000,   // 天黑时间
+		sunset: 5000,   // 天黑时间
 
 	    // 阶段三
 		fireworkInterval:[60, 240],// 烟花产生间隔 //---不建议改动
@@ -96,7 +96,7 @@ const config = (function(){
 		},
 	
 		//阶段四
-		titleWords:'一不小心|就和你|到了白头', // '|' 为分隔符
+		titleWords:'四周年快乐|我爱的|你', // '|' 为分隔符
 		titleOpt:{
 			gap: 4,
 			size: 70,  //最后字的大小
